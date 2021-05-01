@@ -1,0 +1,21 @@
+Servlet: - Servlet is a class that extends the capabilities of the servers and responds to the incoming requests. 
+	   It can respond to any request
+Life Cycle of Servlet : -
+
+1. Servlet class is loaded.
+2. Servlet instance is created.
+3. init method is invoked.
+4. service method is invoked.
+5. destroy method is invoked.
+
+  Life Cycle method are - 
+    public void init(ServletConfig sc) throws ServletException;
+    public void service(ServletRequest sr, ServletResponse sr1) throws ServletException, IOException;
+    public void destroy();
+
+  Non-Life Cycle method are : -
+
+    public String getServletInfo();
+    public ServletConfig getServletConfig();
+
+ 
